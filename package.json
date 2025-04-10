@@ -1,0 +1,31 @@
+{
+  "name": "hfc-alerts-wrapper",
+  "version": "1.0.0",
+  "description": "Unofficial wrapper for Home Front Command emergency alerts",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "make:appimage": "electron-builder --linux AppImage"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^28.1.0",
+    "electron-builder": "^24.9.1"
+  },
+  "dependencies": {
+    "electron-store": "^8.1.0"
+  },
+  "build": {
+    "appId": "com.unofficial.hfc-alerts",
+    "productName": "HFC Alerts",
+    "linux": {
+      "target": [
+        "AppImage"
+      ],
+      "category": "Utility",
+      "icon": "assets/icon.png"
+    }
+  }
+}

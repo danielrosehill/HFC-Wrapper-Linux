@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=HFC Alerts
+Comment=Unofficial Home Front Command Alerts Wrapper
+Exec=/usr/local/bin/hfc-alerts
+Icon=/usr/local/share/hfc-alerts/assets/icon.png
+Terminal=false
+Type=Application
+Categories=Network;Utility;
+StartupWMClass=hfc-alerts-wrapper
+Keywords=alert;emergency;notification;
